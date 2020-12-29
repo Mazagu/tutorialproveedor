@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <!-- Favicon image: https://favicon.io/ -->
+    <title>Rumpelstiltskin Clothing</title>
+    <style>
+        #container {
+            width: 240px;
+            margin: 10px auto;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #4ca54a;
+            text-align: center;
+            font-family: Arial;
+            text-shadow: 1px 1px 0px black;
+        }
+
+        select {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Rumpelstiltskin T-Shirt</h1>
+        <img src="https://loremflickr.com/240/320/t-shirt">
+        <div id="product-options">
+            <select>
+                <option data-qty="10" value="s">s</option>
+                <option data-qty="15" value="m">m</option>
+                <option data-qty="5" value="l">l</option>
+                <option data-qty="0" value="xl" disabled="">xl out of stock</option>
+                <option data-qty="3" value="xxl">xxl</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>

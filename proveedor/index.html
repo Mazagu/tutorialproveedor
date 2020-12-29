@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../robot.png" type="image/png">
+    <!-- Favicon image: https://favicon.io/ -->
+    <title>Lista de proveedores</title>
+    <style>
+        body {
+            background: aliceblue;
+        }
+        
+        #container {
+            width: 320px;
+            margin: 10px auto;
+            font-family: Arial;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 1px 15px 5px 15px;
+            background: burlywood;
+            border-radius: 5px;
+            border: 1px solid #a7804f;
+            margin-bottom: 5px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        a > img {
+            display: inline-block;
+            width: 1em;
+            margin: 2px;
+        }
+
+        a, a:visited {
+            text-decoration: none;
+            color: #2a99fa;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #1068b6;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #64b7ff;
+            text-align: center;
+            text-shadow: 1px 1px 0px black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Listado de proveedores</h1>
+        <p>Estos son 3 ejemplos de posibles páginas de proveedores en las que se muestra un artículo con sus opciones. En cada ejemplo las opciones se cargan de manera diferente</p>
+        <div>
+            <ul>
+                <li>
+                    <p>En este primer ejemplo las opciones se cargan a partir de un JSON servido en la propia página.</p>
+                    <a href="clothingcerberus/index.php"><img src="clothingcerberus/favicon.png">Clothing Cerberus</a>
+                </li>
+                <li>
+                    <p>En este segundo ejemplo las opciones también se cargan a partir de un JSON, pero este se sirve a través de una llamada asíncrona.</p>
+                    <a href="clothingmiss/index.php"><img src="clothingmiss/favicon.png">Clothing Miss</a>
+                </li>
+                <li>
+                    <p>En este tercer ejemplo las opciones se cargan directamente en el dom.</p>
+                    <a href="rumpelstiltskinclothing/index.html"><img src="rumpelstiltskinclothing/favicon.png">Rumpelstiltskin Clothing</a>
+                </li>
+                <li>
+                    <p>En este cuarto ejemplo el proveedor te envía periódicamente el feed que genera para Google Merchant.</p>
+                    <a href="zandinskyclothing/feed.xml"><img src="zandinskyclothing/favicon.png">Zandisky Clothing</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

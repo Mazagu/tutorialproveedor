@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+    <channel>
+        <title>Zandisky Clohitng</title>
+        <item>
+            <title>Zandisky T-Shirt</title>
+            <g:size>s</g:size>
+            <g:qty>10</g:qty>
+            <g:price>25</g:price>
+        </item>
+        <item>
+            <title>Zandisky T-Shirt</title>
+            <g:size>m</g:size>
+            <g:qty>10</g:qty>
+            <g:price>25</g:price>
+        </item>
+        <item>
+            <title>Zandisky T-Shirt</title>
+            <g:size>l</g:size>
+            <g:qty>10</g:qty>
+            <g:price>25</g:price>
+        </item>
+        <item>
+            <title>Zandisky T-Shirt</title>
+            <g:size>xl</g:size>
+            <g:qty>10</g:qty>
+            <g:price>25</g:price>
+        </item>
+        <item>
+            <title>Zandisky T-Shirt</title>
+            <g:size>xxl</g:size>
+            <g:qty>10</g:qty>
+            <g:price>25</g:price>
+        </item>
+    </channel> 
+</rss>
